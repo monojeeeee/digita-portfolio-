@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Digital Portfolio</title>
+
+    
+
+
+</head>
+
+</head>
+<body>
+    <header>
+        <div class="header-content">
+        <h1>G.MANOJ 
+
+        </h1>
+        <img src="qq.jpg"alt="Profile Picture" class="picture-content" >
+        <h4>STUDENT </h4>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section id="about">
+        <div class="section-content">
+        <h2>About Me</h2>
+        <p>Aspiring web developer with a passion 
+            for maintaining high academic 
+            performance. Currently pursuing a 
+            degree in Computer Science, with 
+            hands-on experience in web 
+            development, programming 
+            languages, and internship training. 
+            Seeking opportunities to apply 
+            technical skills and contribute 
+            effectively to a dynamic organization. </p>
+    </div>
+    </section>
+
+    <section id="Education">
+        <h2>Education</h2>
+        <p>I am Currently Pursuing S.A College of Arts and Science 
+            2023 – 2026 
+            2nd Year, Bachelor of Computer Science  .</p>
+        <P></P>
+    </section>
+    
+    <section id="Skills">
+        <h2>Skills</h2>
+        <p>python</p>
+        <p>Java</p>
+        <p>Excel and PowerPoint</p>
+        <p>c++</p>
+        <p>Web Development</p>
+    </section>
+
+
+
+    <section id="Resume">
+        <center>
+        <div class="section-content">
+        <h2>Resume</h2>
+        <a  href="https://drive.google.com/file/d/1wJzGJ35H82AFF4g-XtRdbiXIjEFLIE41/view?usp=drivesdk" class="download-btn">
+          Download CV  </a>
+    </center>
+</div>
+    </section>
+
+
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Mobile : 94459 40707 
+        </p>
+        <p>You can reach me at <a href=" manojlingesh68@gmail.com 
+
+
+            "> manojlingesh68@gmail.com 
+
+
+        </a></p>
+        <p>location : chennai</p>
+    </section>
+
+
+
+    <footer>
+
+
+
+
+        <center>
+        <p>&copy; G.MANOJ 
+
+        </p>
+    </center>
+
+    </footer>
+
+
+
+
+
+<script>
+
+
+
+
+// Smooth scrolling for navigation links
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
